@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://glowfit-nextjs.vercel.app
+Host: https://glowfit2025.vercel.app
 
 # Sitemaps
-Sitemap: https://glowfit-nextjs.vercel.app/sitemap.xml
+Sitemap: https://glowfit2025.vercel.app/sitemap.xml

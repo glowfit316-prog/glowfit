@@ -55,14 +55,14 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://glowfit-nextjs.vercel.app",
+    url: "https://glowfit2025.vercel.app",
     title: "GlowFit Women's Gym | Premium Women-Exclusive Fitness Studio",
     description:
       "GlowFit Women’s Gym in Nayarangadi, Thrissur is a premium women-exclusive fitness studio offering expert-led strength training, fat-loss programs, functional workouts, yoga, Zumba, and personalized coaching. With a supportive all-women community, modern equipment, and certified trainers, GlowFit helps you transform your fitness journey with confidence. Visit us at Thrissur 679572 or contact +91 7736219344 / gglowfit@gmail.com to begin your transformation today.",
     siteName: "GlowFit Women's Gym",
     images: [
       {
-        url: "https://glowfit-nextjs.vercel.app/assets/logo/Logo.png",
+        url: "https://glowfit2025.vercel.app/assets/logo/Logo.png",
         width: 1200,
         height: 630,
         alt: "GlowFit Women's Gym - Empowering Women's Fitness",
@@ -88,7 +88,7 @@ export const metadata = {
   manifest: "/manifest.json",
   other: {
     "og:updated_time": "2024-11-21T10:00:00+00:00",
-    "google-site-verification": "SDpn12dqUS4tZ-va1hxTAB41lVg1Y_HilcOGjP6uFes",
+    "google-site-verification": "OqpdzFLjpAYsQ-aylHAoexP6Vjd9IbeADNBDgt0pC_g",
   },
 };
 
@@ -96,10 +96,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <meta
-          name="google-site-verification"
-          content="SDpn12dqUS4tZ-va1hxTAB41lVg1Y_HilcOGjP6uFes"
-        />
+        <meta name="google-site-verification" content="OqpdzFLjpAYsQ-aylHAoexP6Vjd9IbeADNBDgt0pC_g" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -109,7 +106,7 @@ export default function RootLayout({ children }) {
               name: "GlowFit Women's Gym",
               description:
                 "Empowering women to achieve their strongest, healthiest selves through personalized fitness programs.",
-              url: "https://glowfit-nextjs.vercel.app",
+              url: "https://glowfit2025.vercel.app",
               telephone: "+91 7736219344",
               sameAs: [
                 "https://www.instagram.com/glowfit0071",
@@ -120,7 +117,7 @@ export default function RootLayout({ children }) {
                 latitude: "10.6430202",
                 longitude: "76.0137574",
               },
-              logo: "https://glowfit-nextjs.vercel.app/assets/logo/Logo.png",
+              logo: "https://glowfit2025.vercel.app/assets/logo/Logo.png",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "Nayarangahadi",
@@ -128,7 +125,7 @@ export default function RootLayout({ children }) {
                 postalCode: "679572",
                 addressCountry: "IN",
               },
-              image: "https://glowfit-nextjs.vercel.app/assets/logo/Logo.png",
+              image: "https://glowfit2025.vercel.app/assets/logo/Logo.png",
               openingHours: ["Mo-Fr 06:00-22:00", "Sa-Su 08:00-20:00"],
               offers: {
                 "@type": "Offer",
